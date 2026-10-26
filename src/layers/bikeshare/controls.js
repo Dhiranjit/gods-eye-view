@@ -8,6 +8,8 @@ export function createControls({ state: layerState, services, parts, source }) {
 
     icon: '🚲',
 
+    showInTogglePanel: false,
+
     source: 'GBFS',
 
     updateInterval: STATUS_POLL_MS,
